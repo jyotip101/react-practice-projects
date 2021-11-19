@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jyotip101/react-practice-projects/static/css/main.4961d3a1.chunk.css",
+    "main.js": "/jyotip101/react-practice-projects/static/js/main.a5551731.chunk.js",
+    "main.js.map": "/jyotip101/react-practice-projects/static/js/main.a5551731.chunk.js.map",
+    "runtime-main.js": "/jyotip101/react-practice-projects/static/js/runtime-main.4c8c1b9d.js",
+    "runtime-main.js.map": "/jyotip101/react-practice-projects/static/js/runtime-main.4c8c1b9d.js.map",
+    "static/js/2.6ddaef6e.chunk.js": "/jyotip101/react-practice-projects/static/js/2.6ddaef6e.chunk.js",
+    "static/js/2.6ddaef6e.chunk.js.map": "/jyotip101/react-practice-projects/static/js/2.6ddaef6e.chunk.js.map",
+    "index.html": "/jyotip101/react-practice-projects/index.html",
+    "static/css/main.4961d3a1.chunk.css.map": "/jyotip101/react-practice-projects/static/css/main.4961d3a1.chunk.css.map",
+    "static/js/2.6ddaef6e.chunk.js.LICENSE.txt": "/jyotip101/react-practice-projects/static/js/2.6ddaef6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c8c1b9d.js",
+    "static/js/2.6ddaef6e.chunk.js",
+    "static/css/main.4961d3a1.chunk.css",
+    "static/js/main.a5551731.chunk.js"
+  ]
+}
