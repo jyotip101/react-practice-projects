@@ -25,7 +25,8 @@ body {
   }
 }
 .remove,
-.clear {
+.clear,
+.btn {
   outline: none;
   border: none;
   background: transparent;
@@ -37,7 +38,8 @@ body {
   font-size: medium;
 }
 
-.clear {
+.clear,
+.btn {
   color: #186b92;
   background: #186b92;
   width: fit-content;
