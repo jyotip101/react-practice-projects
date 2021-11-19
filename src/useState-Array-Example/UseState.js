@@ -7,8 +7,7 @@ const UseState = () => {
 
     const [item, setItem] = useState(data);
 
-    const removeItem = (id) => {
-        console.log(id);
+    const removeItem = (id) => { 
         let itemAfterRemove = item.filter(item => item.id !== id);
         setItem(itemAfterRemove);
     }

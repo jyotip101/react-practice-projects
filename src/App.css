@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: monospace;
+  background-color: #f1f5f8;
+  color: #222;
+  font-weight: 600;
+}
+
+.app {
+  margin: 2rem auto;
+}

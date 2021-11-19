@@ -6,13 +6,14 @@ import { data } from './BookData';
 const Books = () => {
   return (
     <>
-      {
+      <div className="bookList">
+        {
         data.map(book => {
           
-          const {img, title, author} = book;
+          const {img, title, author, id} = book;
 
           return(
-            <article className='books'>
+            <article key={id} className='books'>
               <img src={img} alt={title} />
               <h1>{title}</h1>
               <h4>{author}</h4> 
@@ -21,6 +22,7 @@ const Books = () => {
           
         })
       }
+      </div>
     </>
   )
 }

@@ -20,25 +20,26 @@ function useStateCounter() {
     <>
         <div style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}} className="item">
 
-            <h1>Regluer Counter</h1>
+            <h1  >Regluer Counter</h1>
             <h1 style={{marginTop: '1.5rem'}} >{count}</h1>
         </div>
-        <div>
+        <div 
+            style={{display: 'flex', justifyContent: 'center', flexWrap: 'wrap'}}>
             <button 
                 onClick={() => reset()} 
-                style={{fontSize: '100%', margin: '0 0.5rem'}} 
+                style={{fontSize: '100%', margin: '0.5rem'}} 
                 className='btn'
                 >reset
             </button>
             <button 
                 onClick={() => setCount(count + 1)} 
-                style={{fontSize: '100%', margin: '0 0.5rem'}} 
+                style={{fontSize: '100%', margin: '0.5rem'}} 
                 className='btn'
                 >increase
             </button>
             <button 
                 onClick={() => setCount( count - 1)} 
-                style={{fontSize: '100%', margin: '0 0.5rem'}} 
+                style={{fontSize: '100%', margin: '0.5rem'}} 
                 className='btn'
                 >decrease
             </button>
