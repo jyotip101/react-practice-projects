@@ -1,0 +1,48 @@
+body {
+  font-family: monospace;
+  background-color: #f1f5f8;
+  color: #222;
+  font-weight: 600;
+}
+
+.app {
+  max-width: 40vw;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.item {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 734px) {
+  .app {
+    max-width: 70vw;
+  }
+}
+.remove,
+.clear {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #178abe;
+  cursor: pointer;
+}
+
+.item h3 {
+  font-size: medium;
+}
+
+.clear {
+  color: #186b92;
+  background: #186b92;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px 2rem;
+  color: #fff;
+}
