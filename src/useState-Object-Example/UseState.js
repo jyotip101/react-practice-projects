@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
- 
-import '../useState-Array-Example/useState.css';
-
+  
 const UseState = () => {
     const [item, setItem] = useState({
         language: 'JavaScript',
@@ -25,7 +23,7 @@ const UseState = () => {
             <p>{ extension}</p>
             <p>{ frameWork}</p>
         </div>
-        <button className='clear' onClick={() => changeItem()}>
+        <button className='btn' onClick={() => changeItem()}>
             change items
         </button>
     </>

@@ -17,6 +17,9 @@ import UseStateCounter from './useState-Counter-Example/useStateCounter';
 // BirthdaysReminder
 import BirthdaysReminder from './Birthdays Reminder/BirthdaysReminder';
 
+// UseEffect Basic
+import UseEffectBasic from './UseEffect-Basic/UseEffectBasic';
+
 const Projects = () => {
     const [project, setProject] = useState();
 
@@ -56,6 +59,11 @@ const Projects = () => {
                     className='btn'
                     onClick={() => setProject(<BirthdaysReminder />)}
                     >Birthdays Reminder
+                </button>
+                <button 
+                    className='btn'
+                    onClick={() => setProject(<UseEffectBasic />)}
+                    >UseEffect Basic
                 </button>
             </div>
              

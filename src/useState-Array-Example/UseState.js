@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-import { data } from './UseStateData';
-import './useState.css';
+import { data } from './UseStateData'; 
 
 const UseState = () => {
 
@@ -31,7 +30,7 @@ const UseState = () => {
         }
         <button 
             onClick={() => setItem([])}
-            className="clear">
+            className="btn">
             Clear All items
         </button>
     </>
