@@ -28,7 +28,7 @@ body {
 .items {
   background-color: #fff;
   border-radius: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem;
   width: fit-content;
   margin: 1rem auto;
 }

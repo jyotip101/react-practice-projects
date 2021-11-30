@@ -1,25 +1,27 @@
-import './app.css';
+import './app.css'
 
-// import Projects from './Projects'; 
+// import Projects from './Projects';
 
 // import GithubUser from './useEffect-GetHub-user/GithubUser';
 
 // import MultipleReturn from './UseEffect-Multiple-Return/MultipleReturn';
 // import ShowHide from './Show-And-Hide-Example/ShowHide';
 // import Menu from './Menu-Example/Menu';
-import ControlledInput from './Controlled-Input-Example/ControlledInput';
+// import ControlledInput from './Controlled-Input-Example/ControlledInput'
+import MultipleInput from './Multiple-Input-Controls/MultipleInput'
 
-function App() { 
+function App() {
   return (
-    <div className="app">   
-      {/* <Projects/>   */} 
+    <div className='app'>
+      {/* <Projects/>   */}
       {/* <GithubUser/> */}
       {/* <MultipleReturn/> */}
       {/* <ShowHide/> */}
       {/* <Menu /> */}
-      <ControlledInput />
+      {/* <ControlledInput /> */}
+      <MultipleInput />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
