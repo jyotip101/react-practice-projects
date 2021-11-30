@@ -8,7 +8,8 @@ import './app.css'
 // import ShowHide from './Show-And-Hide-Example/ShowHide';
 // import Menu from './Menu-Example/Menu';
 // import ControlledInput from './Controlled-Input-Example/ControlledInput'
-import MultipleInput from './Multiple-Input-Controls/MultipleInput'
+// import MultipleInput from './Multiple-Input-Controls/MultipleInput'
+import UseRefBasic from './useRef-basics/UseRefBasic'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ShowHide/> */}
       {/* <Menu /> */}
       {/* <ControlledInput /> */}
-      <MultipleInput />
+      {/* <MultipleInput /> */}
+      <UseRefBasic />
     </div>
   )
 }
