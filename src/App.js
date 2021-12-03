@@ -9,7 +9,8 @@ import './app.css'
 // import Menu from './Menu-Example/Menu';
 // import ControlledInput from './Controlled-Input-Example/ControlledInput'
 // import MultipleInput from './Multiple-Input-Controls/MultipleInput'
-import UseRefBasic from './useRef-basics/UseRefBasic'
+// import UseRefBasic from './useRef-basics/UseRefBasic'
+import UseReducer from './useReducer/UseReducer'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Menu /> */}
       {/* <ControlledInput /> */}
       {/* <MultipleInput /> */}
-      <UseRefBasic />
+      {/* <UseRefBasic /> */}
+      <UseReducer />
     </div>
   )
 }
