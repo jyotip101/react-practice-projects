@@ -57,7 +57,7 @@ const UseReducer = () => {
       </div>
       {state.people.map((item) => {
         return (
-          <div key={item.id} className='item'>
+          <div key={item.id} className='item' style={{ minWidth: '250px' }}>
             <p>{item.name}</p>
             <button
               style={{ color: 'blueviolet' }}
