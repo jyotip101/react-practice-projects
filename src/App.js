@@ -10,7 +10,9 @@ import './app.css'
 // import ControlledInput from './Controlled-Input-Example/ControlledInput'
 // import MultipleInput from './Multiple-Input-Controls/MultipleInput'
 // import UseRefBasic from './useRef-basics/UseRefBasic'
-import UseReducer from './useReducer/UseReducer'
+// import UseReducer from './useReducer/UseReducer'
+// import PropDrilling from './Prop-Drilling/PropDrilling'
+import ContextAPI from './UseContaxt/ContextAPI'
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       {/* <ControlledInput /> */}
       {/* <MultipleInput /> */}
       {/* <UseRefBasic /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      {/* <PropDrilling /> */}
+      <ContextAPI />
     </div>
   )
 }
