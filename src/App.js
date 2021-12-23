@@ -12,7 +12,8 @@ import './app.css'
 // import UseRefBasic from './useRef-basics/UseRefBasic'
 // import UseReducer from './useReducer/UseReducer'
 // import PropDrilling from './Prop-Drilling/PropDrilling'
-import ContextAPI from './UseContaxt/ContextAPI'
+// import ContextAPI from './UseContaxt/ContextAPI'
+import CustomHooks from './Custom-Hooks/CustomHooks'
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <UseRefBasic /> */}
       {/* <UseReducer /> */}
       {/* <PropDrilling /> */}
-      <ContextAPI />
+      {/* <ContextAPI /> */}
+      <CustomHooks />
     </div>
   )
 }
