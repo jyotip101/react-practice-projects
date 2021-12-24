@@ -13,7 +13,8 @@ import './app.css'
 // import UseReducer from './useReducer/UseReducer'
 // import PropDrilling from './Prop-Drilling/PropDrilling'
 // import ContextAPI from './UseContaxt/ContextAPI'
-import CustomHooks from './Custom-Hooks/CustomHooks'
+// import CustomHooks from './Custom-Hooks/CustomHooks'
+import RouterBasic from './React-Router/RouterBasic'
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <PropDrilling /> */}
       {/* <ContextAPI /> */}
-      <CustomHooks />
+      {/* <CustomHooks /> */}
+      <RouterBasic />
     </div>
   )
 }
