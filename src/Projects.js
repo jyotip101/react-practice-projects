@@ -21,7 +21,7 @@ import BirthdaysReminder from './Birthdays Reminder/BirthdaysReminder'
 import UseEffectBasic from './UseEffect-Basic/UseEffectBasic'
 
 // useEffect github user
-import GithubUser from './GithubUser/useEffect-GetHub-user/GithubUser'
+import GithubUser from './useEffect-GetHub-user/GithubUser'
 
 // useEffect multiple return
 import MultipleReturn from './UseEffect-Multiple-Return/MultipleReturn'
@@ -55,14 +55,12 @@ import CustomHooks from './Custom-Hooks/CustomHooks'
 
 // react router
 import RouterBasic from './React-Router/RouterBasic'
+
+import Sidebar from './Sidebar'
 const Projects = () => {
   return (
     <>
-      <div className='projects'>
-        <div className='items'>
-          <h1>Projects</h1>
-        </div>
-      </div>
+      <Sidebar />
     </>
   )
 }

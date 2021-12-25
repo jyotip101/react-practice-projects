@@ -14,7 +14,9 @@ import './app.css'
 // import PropDrilling from './Prop-Drilling/PropDrilling'
 // import ContextAPI from './UseContaxt/ContextAPI'
 // import CustomHooks from './Custom-Hooks/CustomHooks'
-import RouterBasic from './React-Router/RouterBasic'
+// import RouterBasic from './React-Router/RouterBasic'
+
+import Projects from './Projects'
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
       {/* <PropDrilling /> */}
       {/* <ContextAPI /> */}
       {/* <CustomHooks /> */}
-      <RouterBasic />
+      {/* <RouterBasic /> */}
+      <Projects />
     </div>
   )
 }
