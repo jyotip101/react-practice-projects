@@ -1,15 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from './Data'
 import './Sidebar.css'
+import { useGlobalContext } from './context'
+
 const Sidebar = () => {
+  const { isSidebarOpen, closeSidebar } = useGlobalContext()
+
   return (
     <>
-      <div className='nav-center'>
+      <div className={isSidebarOpen ? 'nav-center' : 'hide-nav'}>
         <div className='nav-header'>
-          <button
-            className='close-button'
-            // onClick={closeSidebar}
-          >
+          <button className='close-button' onClick={closeSidebar}>
             <i className='material-icons'>close </i>
           </button>
         </div>
@@ -18,7 +19,7 @@ const Sidebar = () => {
             {data.map((item) => {
               const { id, text } = item
               return (
-                <li key={id}>
+                <li key={id} onClick={closeSidebar}>
                   <a href='#'>{text}</a>
                 </li>
               )

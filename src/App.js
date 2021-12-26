@@ -1,7 +1,5 @@
 import './app.css'
 
-// import Projects from './Projects';
-
 // import GithubUser from './useEffect-GetHub-user/GithubUser';
 
 // import MultipleReturn from './UseEffect-Multiple-Return/MultipleReturn';
@@ -16,7 +14,8 @@ import './app.css'
 // import CustomHooks from './Custom-Hooks/CustomHooks'
 // import RouterBasic from './React-Router/RouterBasic'
 
-import Projects from './Projects'
+import Projects from './z-all-projects/Projects'
+import { AppProvider } from './z-all-projects/context'
 
 function App() {
   return (
@@ -34,7 +33,9 @@ function App() {
       {/* <ContextAPI /> */}
       {/* <CustomHooks /> */}
       {/* <RouterBasic /> */}
-      <Projects />
+      <AppProvider>
+        <Projects />
+      </AppProvider>
     </div>
   )
 }

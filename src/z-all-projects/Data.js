@@ -1,56 +1,56 @@
 // Card Example
-import Card from './Card/Book'
+import Card from '../Card/Book'
 
 // useState-Array Example
-import UseStateArray from './useState-Array-Example/UseState'
+import UseStateArray from '../useState-Array-Example/UseState'
 
 // useState-Array Example
-import UseStateObject from './useState-Object-Example/UseState'
+import UseStateObject from '../useState-Object-Example/UseState'
 
 // useState-Counter Example
-import UseStateCounter from './useState-Counter-Example/useStateCounter'
+import UseStateCounter from '../useState-Counter-Example/useStateCounter'
 
 // BirthdaysReminder
-import BirthdaysReminder from './Birthdays Reminder/BirthdaysReminder'
+import BirthdaysReminder from '../Birthdays Reminder/BirthdaysReminder'
 
 // UseEffect Basic
-import UseEffectBasic from './UseEffect-Basic/UseEffectBasic'
+import UseEffectBasic from '../UseEffect-Basic/UseEffectBasic'
 
 // useEffect github user
-import GithubUser from './useEffect-GetHub-user/GithubUser'
+import GithubUser from '../useEffect-GetHub-user/GithubUser'
 
 // useEffect multiple return
-import MultipleReturn from './UseEffect-Multiple-Return/MultipleReturn'
+import MultipleReturn from '../UseEffect-Multiple-Return/MultipleReturn'
 
 // show and hide Example
-import ShowHide from './Show-And-Hide-Example/ShowHide'
+import ShowHide from '../Show-And-Hide-Example/ShowHide'
 
 // menu Example
-import Menu from './Menu-Example/Menu'
+import Menu from '../Menu-Example/Menu'
 
 // controlled input Example
-import ControlledInput from './Controlled-Input-Example/ControlledInput'
+import ControlledInput from '../Controlled-Input-Example/ControlledInput'
 
 // multiple input controls
-import MultipleInput from './Multiple-Input-Controls/MultipleInput'
+import MultipleInput from '../Multiple-Input-Controls/MultipleInput'
 
 // useRef basic
-import UseRefBasic from './useRef-basics/UseRefBasic'
+import UseRefBasic from '../useRef-basics/UseRefBasic'
 
 // useReducer
-import UseReducer from './useReducer/UseReducer'
+import UseReducer from '../useReducer/UseReducer'
 
 // prop drilling
-import PropDrilling from './Prop-Drilling/PropDrilling'
+import PropDrilling from '../Prop-Drilling/PropDrilling'
 
 // useContext
-import ContextAPI from './UseContaxt/ContextAPI'
+import ContextAPI from '../UseContaxt/ContextAPI'
 
 // custom hooks
-import CustomHooks from './Custom-Hooks/CustomHooks'
+import CustomHooks from '../Custom-Hooks/CustomHooks'
 
 // react router
-import RouterBasic from './React-Router/RouterBasic'
+import RouterBasic from '../React-Router/RouterBasic'
 
 export default [
   {
