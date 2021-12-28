@@ -1,5 +1,3 @@
-[preview or demo](https://jyotip101.github.io/react-practice-projects/)
-
 ## react-practice-projects
 
 youtube Tutorial: https://www.youtube.com/watch?v=iZhV0bILFb0&t=0s
