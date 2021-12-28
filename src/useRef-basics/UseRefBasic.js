@@ -19,7 +19,7 @@ const useRefBasic = () => {
   return (
     <>
       <h1>useRef Basic</h1>
-      <div className='items'>
+      <div className='item'>
         <form onSubmit={handleSubmit}>
           <div className='input-item'>
             <label htmlFor='name'>Name</label>
@@ -34,7 +34,7 @@ const useRefBasic = () => {
           <button
             ref={butValue}
             style={{ backgroundColor: 'blueviolet' }}
-            className='btn'
+            className='remove'
             type='submit'
           >
             Submit

@@ -1,3 +1,26 @@
+[preview or demo](https://jyotip101.github.io/react-practice-projects/)
+
 ## react-practice-projects
 
-[react-practice-projects](https://jyotip101.github.io/react-practice-projects/)
+youtube Tutorial: https://www.youtube.com/watch?v=iZhV0bILFb0&t=0s
+
+icons: https://fonts.google.com/icons?selected=Material+Icons+Outlined
+
+- Card Example
+- UseState Array
+- useState Object Example
+- useState Counter Example
+- Birthdays Reminder
+- useEffect Basic
+- useEffect github user
+- useEffect multiple return
+- show and hide Example
+- Menu Example
+- Controlled Input Example
+- Multiple Input controls
+- useRef Basic
+- UseReducer
+- Prop Drilling
+- useContext
+- Custom Hooks
+- React Router Basic

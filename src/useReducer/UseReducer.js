@@ -48,7 +48,7 @@ const UseReducer = () => {
           </div>
           <button
             style={{ backgroundColor: 'blueviolet' }}
-            className='btn'
+            className='remove'
             type='submit'
           >
             Submit

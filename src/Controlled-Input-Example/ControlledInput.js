@@ -55,7 +55,7 @@ const ControlledInput = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <button className='btn'>Submit</button>
+          <button className='remove'>Submit</button>
         </form>
       </div>
       {person.map((person) => {

@@ -14,8 +14,9 @@ import './app.css'
 // import CustomHooks from './Custom-Hooks/CustomHooks'
 // import RouterBasic from './React-Router/RouterBasic'
 
-import Projects from './z-all-projects/Projects'
-import { AppProvider } from './z-all-projects/context'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './z-all-projects/Home'
+import Data from './z-all-projects/Data'
 
 function App() {
   return (
@@ -33,9 +34,16 @@ function App() {
       {/* <ContextAPI /> */}
       {/* <CustomHooks /> */}
       {/* <RouterBasic /> */}
-      <AppProvider>
-        <Projects />
-      </AppProvider>
+
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          {Data.map((item) => {
+            const { id, page, path } = item
+            return <Route exate key={id} path={path} element={page} />
+          })}
+        </Routes>
+      </Router>
     </div>
   )
 }

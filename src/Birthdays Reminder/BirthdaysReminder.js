@@ -46,21 +46,25 @@ const BirthdaysReminder = () => {
           const { id, name, age } = person
 
           return (
-            <div className='items-birthdays'>
-              <div key={id} className='item-birthdays'>
-                <i className='material-icons'>account_circle</i>
-                <p>
-                  {name} <span>{age}</span>
-                </p>
+            <>
+              <div className='items-birthdays'>
+                <div key={id} className='item-birthdays'>
+                  <i className='material-icons'>account_circle</i>
+                  <p>
+                    {name} <span>{age}</span>
+                  </p>
+                </div>
+                <button onClick={() => removePerson(id)} className='remove'>
+                  <i className='material-icons'>delete</i>
+                </button>
               </div>
-              <button onClick={() => removePerson(id)} className='remove'>
-                <i className='material-icons'>delete</i>
-              </button>
-            </div>
+              <br />
+            </>
           )
         })}
-        <button onClick={() => setPerson([])} className='btn'>
-          <i className='material-icons'>clear</i>
+        <br />
+        <br />
+        <button onClick={() => setPerson([])} className='remove'>
           Clear All
         </button>
       </section>

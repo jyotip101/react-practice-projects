@@ -52,9 +52,11 @@ label {
 .remove {
   outline: none;
   border: none;
-  background: transparent;
-  color: #28c528;
+  background: rgb(40, 197, 40);
+  color: #fff;
+  border-radius: 5px;
   cursor: pointer;
+  padding: 0.5rem 1rem;
 }
 
 .btn {

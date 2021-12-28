@@ -15,7 +15,7 @@ const UseState = () => {
         const { name, age, id } = data
 
         return (
-          <div key={id} className='item'>
+          <div key={id} className='items'>
             <h3>
               {name}, {age}{' '}
             </h3>
@@ -25,7 +25,7 @@ const UseState = () => {
           </div>
         )
       })}
-      <button onClick={() => setItem([])} className='btn'>
+      <button onClick={() => setItem([])} className='remove'>
         Clear All items
       </button>
     </>
