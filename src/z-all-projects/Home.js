@@ -26,6 +26,9 @@ const Home = () => {
       <a href='https://github.com/jyotip101/react-practice-projects'>
         https://github.com/jyotip101/react-practice-projects
       </a>
+      <h1>
+        <Link to='/Card'>Card</Link>
+      </h1>
       <ul className='ulLinks'>
         {Data.map((item) => {
           const { id, text, path } = item

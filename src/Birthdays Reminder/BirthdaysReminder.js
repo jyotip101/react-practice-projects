@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import './birthdaysReminder.css'
 const url = 'https://randomuser.me/api/'
 const data = [
   {
@@ -41,7 +41,7 @@ const BirthdaysReminder = () => {
   return (
     <>
       <section className='section-birthdays'>
-        <h1>5 Birthdays Today</h1>
+        <h1> {person.length} Birthdays Today</h1>
         {person.map((person) => {
           const { id, name, age } = person
 

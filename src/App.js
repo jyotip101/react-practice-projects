@@ -34,14 +34,21 @@ function App() {
       {/* <ContextAPI /> */}
       {/* <CustomHooks /> */}
       {/* <RouterBasic /> */}
-
       <Router>
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route path='/react-practice-projects' element={<Home />} />
           {Data.map((item) => {
             const { id, page, path } = item
-            return <Route exate key={id} path={path} element={page} />
+            return <Route key={id} path={path} element={page} />
           })}
+          <Route
+            path='*'
+            element={
+              <main className='items'>
+                <h3>There's nothing here!</h3>
+              </main>
+            }
+          />
         </Routes>
       </Router>
     </div>

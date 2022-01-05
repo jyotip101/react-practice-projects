@@ -15,9 +15,9 @@ const UseState = () => {
         const { name, age, id } = data
 
         return (
-          <div key={id} className='items'>
+          <div key={id} className='item'>
             <h3>
-              {name}, {age}{' '}
+              {name}, {age}
             </h3>
             <button onClick={() => removeItem(id)} className='remove'>
               remove
